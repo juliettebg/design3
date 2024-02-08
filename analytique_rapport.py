@@ -234,7 +234,7 @@ fig, ax = plt.subplots()
 ###### with fins ######
 #rho, cp, k
 #380 https://www.matweb.com/search/datasheet_print.aspx?matguid=7441a0886ba142cc82eb7af5d4eece6d
-for alu in [("pure", 2702, 903, 237), ("Alloy 2024-T6", 2770, 875, 177), ("Alloy 195", 2790, 883, 168), ("Alloy A380", 2740, 963, 109)]:
+for alu in [("pure", 2702, 903, 237), ("Alloy 2024-T6", 2770, 875, 177), ("Alloy 195", 2790, 883, 168), ("Alloy A380", 2740, 963, 109), ("Alloy 6061-T6", 2700, 896, 170)]:
     def dTdt(t, T):
         Pabs = 20
         R = 0.025 
